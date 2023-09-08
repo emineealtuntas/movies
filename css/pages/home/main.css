@@ -1,0 +1,50 @@
+main h1 {
+  all: unset;
+  display: block;
+  color: var(--WHITE);
+  font-family: "Poppins";
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  main h1 {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+}
+
+main ul {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+main ul li {
+  all: unset;
+}
+
+main ul li a {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: var(--WHITE);
+  text-align: center;
+}
+
+main img {
+  width: 250px;
+}
+@media only screen and (max-width: 600px) {
+  main img {
+    width: 100px;
+  }
+}

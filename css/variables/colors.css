@@ -1,0 +1,14 @@
+:root {
+  --PRIMARY: #1de782;
+  --PRIMARY_WEAK: #bdf0c1;
+  --TEXT_PRIMARY: #101012;
+  --TEXT_SECONDARY: #5a5a5d;
+  --STROKE: #dddedf;
+  --TEXT_TERTIARY: #bebebf;
+  --BLACK: #000000;
+  --WHITE: #ffffff;
+  --RED: #dc0000;
+  --HOVER: #17c769;
+  --INACTIVE: #a1d9be;
+  --DISABLED: #d5e5f0;
+}

@@ -1,0 +1,50 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 32px;
+}
+@media only screen and (max-width: 600px) {
+  header nav {
+    justify-content: center;
+  }
+}
+nav .navbar-brand img {
+  width: 127px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .navbar-brand img {
+    width: 100px;
+  }
+}
+nav .navbar-brand {
+  display: flex;
+}
+
+header nav ul {
+  all: unset;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav ul {
+    display: none;
+  }
+}
+
+header nav ul li {
+  all: unset;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav .btn {
+  width: 100px;
+}

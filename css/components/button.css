@@ -1,0 +1,30 @@
+@import url("../../fonts/Poppins/poppins.css");
+.btn {
+  all: unset;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--PRIMARY);
+  color: var(--WHITE);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--HOVER);
+}
+
+.btn:active {
+  background-color: var(--INACTIVE);
+}
+
+.btn:disabled {
+  background-color: var(--DISABLED);
+  color: var(--INACTIVE);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 3px solid var(--WHITE);
+}

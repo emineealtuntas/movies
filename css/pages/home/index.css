@@ -1,0 +1,7 @@
+@import url("../../variables/colors.css");
+@import url("../../variables/breakpoints.css");
+@import url("../../components/button.css");
+
+@import url("./body.css");
+@import url("./header.css");
+@import url("./main.css");
